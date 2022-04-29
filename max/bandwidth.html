@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bandwidth</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<style>
+    div {
+        padding-top: 15px;
+        text-align: center;
+    }
+</style>
+<body>
+
+<div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>Application Bandwidth</h1>
+  <p>For 1000-100-1000 topology</p> 
+</div>
+
+
+<div class="container mt-5">
+    
+
+    <div class="row">
+        <div class="col-sm-6">
+          <img src="Graphs2/Application Bandwidth/pie_pcap.png" style="width: 70%;"/>
+          <p style="text-align: center; font-size: 30px; padding-top: 20px;">PIE</p>
+        </div>
+        <div class="col-sm-6">
+            <img src="Graphs2/Application Bandwidth/fq_pie_pcap.png" style="width: 70%;"/>
+            <p style="text-align: center; font-size: 30px; padding-top: 20px;">FQ-PIE</p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-6">
+          <img src="Graphs2/Application Bandwidth/codel_pcap.png" style="width: 70%;"/>
+          <p style="text-align: center; font-size: 30px; padding-top: 20px;">CoDel</p>
+        </div>
+        <div class="col-sm-6">
+            <img src="Graphs2/Application Bandwidth/fq_codel_pcap.png" style="width: 70%;"/>
+            <p style="text-align: center; font-size: 30px; padding-top: 20px;">FQ-CoDel</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+          <img src="Graphs2/Application Bandwidth/cobalt_pcap.png" style="width: 70%;"/>
+          <p style="text-align: center; font-size: 30px; padding-top: 20px;">Cobalt</p>
+        </div>
+        <div class="col-sm-6">
+            <img src="Graphs2/Application Bandwidth/cake_pcap.png" style="width: 70%;"/>
+            <p style="text-align: center; font-size: 30px; padding-top: 20px;">Cake</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
